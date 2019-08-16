@@ -1,0 +1,279 @@
+.woocommerce.woocommerce-page {
+	
+	& .woocommerce.columns-4 {
+		& .woocommerce-ordering {
+			display: none;
+		}
+		& .woocommerce-result-count {
+			display: none;
+		}
+	}
+
+	
+	
+	& ul.products {
+		
+		& li.product {
+			
+			float: none;
+			display: inline-block;
+			margin: 0;
+			position: relative;
+			width: 100%;
+			margin-left: 0;
+			border: 1px dashed #ddd;
+			padding: 16px;
+			margin-bottom: 25px;
+			box-sizing: border-box;
+				
+			& .badges {	
+				position: absolute;
+				bottom: -14px;
+				right: -10px;
+				
+				& .hot {
+				  	display: inline-block;
+				  	width: 25px;
+					height: 25px;
+					margin-right:4px;	
+				}
+			}
+			
+			& .ads-img {
+				float: left;
+   				 margin-right: 15px;
+			}
+			
+			& .extras {
+				display: inline-block;
+				margin-right:10px;
+				height: 20px; 
+				& ul {
+					margin: 0;
+					& li {
+						margin:0 5px;
+						display: inline-block;
+						& span {
+							display: inline-block;
+							clear:none;
+							vertical-align: middle;
+							font-size:14px;
+						}
+						& img {
+							margin:0 4px;
+							opacity: 0.65;
+							max-height:12px;
+							display: inline-block;
+							clear:none;
+							vertical-align: middle;
+							max-width: none;
+							width:15px;
+						}
+					}
+				}
+			}
+			
+			& .woocommerce-LoopProduct-link {
+				& .price {
+					display: none;
+				}
+			}
+			
+				& .woocommerce-placeholder {
+					border:0;
+				}
+			
+				& a h2 {
+					display: none;
+				}
+				
+				& img {
+					max-width: 74px;
+					display: inline-block;
+					margin: 0;
+				}
+				
+				& a {
+					float:left;
+					width: 8%;
+					vertical-align: top;
+				}
+				
+				& .button {
+					margin-top: 0;
+					display: none;
+				}
+				& h3 {
+					display: inline-block;
+					clear:both;
+					font-weight: 500;
+				}
+				
+				& .inner {
+					float:left;
+					width:100%;
+				}
+				& .url {
+					display: inline-block;
+					font-size: 12px;
+					border-bottom: 1px dashed;
+					vertical-align: middle;
+					margin: 0 5px;
+				}
+				
+				& .categories {
+					
+					float:right;
+					& span {
+						display: inline-block;
+						background: #eee; 
+						padding: 4px;
+						font-size: 12px;
+					}
+				}
+				
+				& .purchase {
+					float: right;
+					& a {
+						background: var(--bima);
+						display: inline-block;
+						width: auto;
+						text-align: center;
+						padding: 4px 4px;
+						font-size: 13px;
+						margin-left: 4px;
+						color: white;
+						
+						&:hover {
+							opacity:0.8;
+						}
+						
+						& span.price {
+							color: white;
+							font-weight: 500;
+							font-size: 13px;
+							margin: 0;
+							padding: 5px;
+						}
+						
+					}
+				}
+				
+				& .content {
+					font-size: 13px;
+					width: 80%;
+					display: inline-block;
+				}
+				
+				
+		}
+	}
+	
+	
+	& nav.woocommerce-pagination ul { 
+		border: 0;
+		& li {
+		border: 0;
+		}
+	}
+	
+	
+}
+
+
+
+
+
+body .filter_area {
+	background: #eee;
+    padding: 10px;
+	margin-bottom: 25px;
+	
+   & h2 {
+	   display: none;
+   }
+	
+   & ul {
+	padding: 0;
+	display: inline-block;
+	width: 100%;
+   }
+	
+	& li {
+		display: inline-block;
+		margin-right: 40px;
+	}
+	
+	& .widget_price_filter .ui-slider .ui-slider-range {
+		background-color: #ed8600;
+	}
+	&  .widget_price_filter .ui-slider .ui-slider-handle {
+		background-color: #e6e6e6;
+	}
+	
+	& .irs-bar {
+		height: 10px;
+		top: 33px;
+		border-top: 1px solid rgb(255, 145, 2);
+		border-bottom: 1px solid rgb(255, 145, 2);
+		background: rgb(255, 145, 2);
+		background: linear-gradient(to top, rgb(255, 145, 2) 0%,rgb(208, 127, 21) 100%);
+	}
+	& .irs-from, & .irs-to, & .irs-single {
+		color: #333;
+		background: #e2e2e2;
+	}
+	& .woof_container {
+		margin-bottom: 0;
+		display: inline-block;
+		width: 33%;
+		float: left;
+		vertical-align: top;
+		box-sizing: border-box;
+		padding: 0 2%;
+		min-height: 140px;
+	}
+	
+	& .chosen-container {
+		width: 100% !important;
+	} 
+	& .woof_container:nth-child(7) {
+		width: 100%;
+		padding-top: 3%;
+		min-height: 70px;
+	}
+	
+	& .woof_submit_search_form_container  button {
+		display: none;
+	}
+	
+	& .woof_sid {
+		display: none;
+	}
+	
+	& .filter-controls {
+		width: 100%;
+		display: inline-block;
+		& .filter {
+			float: left;
+			/* max-height: 20px; */
+			width: 20px;
+			height: 20px;
+			margin-right:5px;
+		}
+		
+		& .filter:hover {
+			opacity: 0.6;
+		}
+		& a {
+			color:initial;
+			
+		}
+		
+		& .p_filter_off {
+			float: right;
+			display: none;
+		}
+	}
+}
+

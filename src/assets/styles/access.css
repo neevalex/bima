@@ -1,0 +1,77 @@
+body #rcp_registration_form, body #rcp_profile_editor_form {
+	
+	background: #fafafa; 
+	padding:20px;
+	
+	& .rcp_user_fieldset {
+		margin-top:25px;
+		margin-bottom:25px;
+		 
+		& > p { 
+		float: left; 
+		width: 50%;
+		clear: none;
+		padding: 4px 8px;
+		}
+		
+		& input {
+			width: 100%;
+		}
+	}
+	
+	& .rcp_registration_total {
+		text-align: left;
+		
+	}
+	
+	& a {
+		border-bottom: 1px dashed;
+	}
+	
+	& fieldset {
+		
+		& legend {
+			font-weight: 400;
+			margin-bottom: 10px;
+		}
+	}
+
+}
+
+
+body .rcp_form {
+	
+	& input[type=checkbox] {
+		float: left;
+		margin: 3px 8px 0 0;
+	}
+
+	& label {
+		display: inline-block;
+		cursor: pointer;
+		vertical-align: middle;
+	}
+}
+
+.rcp-table {
+	text-align: left;
+    width: 100%;
+    background: #eee;
+    padding: 15px;
+    margin-bottom: 18px;
+	
+	& tr th {
+		font-weight: 400;
+	}
+	
+	& .rcp-total th, & .rcp-total td {
+		padding-top: 16px;
+	}
+}
+
+
+.woocommerce-MyAccount-navigation {display: none;}
+.woocommerce-account .woocommerce-MyAccount-content {width: 100%;float: left;}
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+    clear: none;
+}

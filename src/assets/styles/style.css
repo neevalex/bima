@@ -1,0 +1,31 @@
+/*
+Theme Name: Bima
+Theme URI: https://neevalex.com
+Author: Neev Alex
+Author URI: https://neevalex.com
+Description: Bima.dk official theme.
+Version: 1.0
+Tags: responsive, clean, minimal, modern, documentation
+*/
+
+@import '../../../node_modules/normalize.css/normalize.css';
+@import '../../../node_modules/aos/dist/aos.css';
+@import 'variables';
+@import 'globals';
+@import 'nprogress';
+@import 'fonts';
+@import 'button';
+@import 'inputs';
+@import 'header';
+@import 'grid';
+@import 'menu';
+@import 'front-page';
+@import 'site-content';
+@import 'domains-catalog';
+@import 'colorcode';
+@import 'search';
+@import 'sidebar';
+@import 'not-found';
+@import 'access';
+@import 'woocommerce';
+@import 'footer';

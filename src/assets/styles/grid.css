@@ -1,0 +1,10 @@
+* {
+	clear: none;
+}
+
+body .blog {
+	& article {
+		width:100%;
+		position: initial;
+	}
+}

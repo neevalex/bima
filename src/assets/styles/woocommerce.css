@@ -1,0 +1,5 @@
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #ed8600;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
